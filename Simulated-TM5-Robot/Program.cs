@@ -31,7 +31,6 @@ namespace Simulated_TM5_Robot
         //static string deviceId = "TM5-coffee-test";
         static Timer timer1,timer2;
         static RobotMessage robotMessage = new RobotMessage();
-        private static string deviveConnStr = "HostName=sfContosoP.azure-devices.net;DeviceId=TMCoffeeRobot;SharedAccessKey=MjM5NmViMjktMjA4ZS00MDdmLTk0YTQtNjVlMTAw";
         public static bool isRunning = false;
         public static string preStatus = "";
         public static string curStatus = "connect";
